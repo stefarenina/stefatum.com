@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+body {
+    font-family: "Ubuntu";
+
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+header {
+
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body header img {
+    width: 100px;  
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+}
+
+header nav ul {
+    background-color: rgba(68, 68, 68, 0.3);
+    text-align: center;
+    opacity: 5.0;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: #fff;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(68, 68, 68, 0.3);
+    text-align: center;
+    list-style: none; 
+    opacity: 5.0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/* CLASES */
+.contenedor{
+    margin-bottom: 25px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+
+}
+
+.titulo{
+    color: lightblue;
+    font-size: 48px;
+    text-align: center;
+}
+
+.fotografia{
+    width: 600px; 
+    height: 400px;
+    
+}
+.tabla, .tabla th, .tabla td{
+    color: wheat;
+    border: 2px solid white;
+    padding: 8px;
+}
+/* IDS */
+#div1{
+    margin-bottom: 100px;
+}
+
+#parr1 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    color:white
+    
+}
+#parr2 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    color:white
+    
+}
+
+#parr3 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+    
+}
+
+.contenedor-columnas {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.columna {
+    flex: 1; 
+    padding: 20px; 
+    border: 1px solid white; 
+}
+
+
+.columna h2 {
+    font-size: 24px;
+    color: wheat;
+}
+
+.columna p {
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 2.0;
+    text-align: justify;
+}

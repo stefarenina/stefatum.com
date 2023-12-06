@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+body {
+    font-family: "Ubuntu";
+    
+    background-color: gray;
+  
+    display:flex; 
+    flex-direction:column;
+    justify-content:center;
+
+      
+}
+.contenido-central {
+   
+    text-align: center; /* Alinea el texto al centro */
+}
+.titles {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+    justify-content:center;  
+}
+
+.icon{
+    width: 16px; 
+    height: 16px;
+    }
